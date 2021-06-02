@@ -23,7 +23,7 @@ public class Task {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id ;
+    private Integer id;
 
     @Column(name = "content", length = 255, nullable = false)
     private String content;
